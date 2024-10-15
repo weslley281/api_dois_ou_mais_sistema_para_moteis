@@ -3,9 +3,9 @@ interface ICreateUserDTO {
   name: string;
   phone: string;
   email: string;
-  birthday: string;
+  birthday: Date;
   user_type: string;
-  cpf: string
+  cpf?: string
   password?: string;
   createdAt?: Date;
   updatedAt?: Date;

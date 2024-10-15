@@ -15,7 +15,7 @@ const userModel = connection.define('users', {
   phone: {
     type: DataTypes.STRING,
     allowNull: false,
-    unique: true
+    unique: false
   },
   email: {
     type: DataTypes.STRING,
